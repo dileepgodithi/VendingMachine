@@ -48,7 +48,7 @@ Please select your option"
                 {
                     if(items[i,j] != null)
                     {
-                        Console.Write($"|{i+1}{j+1} {items[i, j].ItemName} ${items[i, j].Price}|\t");
+                        Console.Write($"|{i+1}{j+1} {items[i, j].ItemName,10} ${items[i, j].Price}|\t");
                     }
                     else
                     {
@@ -56,7 +56,7 @@ Please select your option"
                     }
 
                 }
-                Console.WriteLine();
+                Console.WriteLine("\n------------------------------------------------------------------------------------------");
             }
         }
 

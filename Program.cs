@@ -6,9 +6,7 @@ namespace VendingMachineProject
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            //Console.ReadLine();
-
+            
             Item[,] items= new Item[3,4];
 
             items[0, 0] = new ChocolateItem("Dairy Milk", 3);
